@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(image/header-image.png);
+    background-size:cover ;
+    background-position: center;
+    padding: 10px 8%;
+}
+nav button{
+    padding: 7px 20px;
+    cursor: pointer;
+
+}
+
+.header-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header-text h1{
+   max-width: 650px;
+
+}
+.email-signup{
+    overflow: hidden;
+    
+}
+/* .email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+} */
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 10px;
+}
