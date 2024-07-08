@@ -74,6 +74,7 @@ nav button{
     border-radius: 4px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-top: 30px;
     overflow: hidden;
     
@@ -142,13 +143,13 @@ nav button{
 .accordian{
     margin:60px auto;
     width: 100%;
-    max-width: 750px;
+    max-width: 950px;
 
 } 
 .accordian li{
     list-style: none;
     width: 100%;
-    pad: 5px;
+    padding: 5px;
 }  
 .accordian li label{
     display: flex;
@@ -160,10 +161,11 @@ nav button{
     margin-bottom: 2px;
     cursor: pointer;
     position: relative;
+    padding: 30px 15px;
 }  
 label::after{
     content: "+";
-    font-size: 30px;
+    font-size: 40px;
     position: absolute;
     right: 20px;
     transition: transform .5s;
@@ -190,8 +192,8 @@ input[type=radio] {
 
 .faq .email-signup{
     max-width: 600px;
-    margin: 20px auto 60px 0;
-
+    margin:30px auto;
+    
 }
 .faq small{
     font-size: 13px;
